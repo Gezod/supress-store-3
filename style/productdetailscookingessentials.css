@@ -1,0 +1,264 @@
+body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Montserrat', sans-serif;
+            background: rgb(170, 0, 93);
+            background: linear-gradient(155deg, rgba(170, 0, 93, 1) 0%, rgba(144, 8, 136, 1) 48%, rgba(56, 15, 227, 1) 100%);
+        }
+
+        .nav-container {
+            background-color: white;
+            padding: 15px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-top: 10px;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            flex-grow: 1;
+        }
+
+        .logo img {
+            max-height: 75px;
+            margin-left: 150px;
+        }
+
+        nav {
+            text-align: right;
+            margin-right: 100px;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline-block;
+            margin-left: 70px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+        }
+
+        .image-button,
+        .image-button2 {
+            border: none;
+            padding: 0;
+            background: none;
+            cursor: pointer;
+        }
+
+        .image-button img,
+        .image-button2 img {
+            width: 35px;
+            height: auto;
+            margin-bottom: -10px;
+        }
+
+        .image-button-container {
+            margin-top: 20px;
+        }
+
+        .image-button2 img {
+            width: 80px;
+            height: auto;
+            margin-bottom: -20px;
+            margin-left: 50px;
+        }
+
+        .image-button2-container {
+            margin-left: 100px;
+        }
+
+        .circle {
+            width: 30px;
+            height: 30px;
+            background-color: #5900cb;
+            border-radius: 50%;
+            margin-left: 10px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .circle-number {
+            color: white;
+            font-size: 18px;
+        }
+
+        .rounded-button {
+            background-color: #5900cb;
+            color: white;
+            padding: 20px 80px;
+            border-radius: 100px;
+            margin-left: 40px;
+            cursor: pointer;
+            border: none;
+        }
+
+
+        /* Footer Container */
+        .footer-container {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        /* Footer Menu */
+        .footer-menu {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        /* Footer Section */
+        .footer-menu section {
+            width: 23%;
+            margin-bottom: 20px;
+        }
+
+        /* Footer Links */
+        .footer-menu ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .footer-menu a {
+            text-decoration: none;
+            color: #fff;
+        }
+
+        .footer-menu a:hover {
+            text-decoration: underline;
+        }
+
+        .footer-copyright {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+
+        @media (max-width: 768px) {
+            .footer-menu section {
+                width: 48%;
+            }
+        }
+
+        .app-download {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        .app-download button {
+            background: none;
+            border: none;
+            padding: 0;
+            cursor: pointer;
+        }
+
+        .app-download button img {
+            width: 200px;
+            height: auto;
+            margin-left: -30px;
+        }
+
+        .container.single-product {
+            margin-top: -20px;
+        }
+
+        .row {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .col-12 {
+            width: 100%;
+            max-width: 100%;
+            padding: 0 15px;
+            box-sizing: border-box;
+        }
+
+        .col-md-6 {
+            flex: 0 0 50%;
+            max-width: 50%;
+        }
+
+        .product-details-container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            margin-top: 100px;
+        }
+
+        .product-image-container {
+            position: relative;
+            overflow: hidden;
+            border-radius: 12px;
+
+        }
+
+        .product-image {
+            width: 100%;
+            height: auto;
+            border-radius: 12px;
+            margin-top: 100px;
+            margin-bottom: 100px;
+        }
+
+        h1,
+        h2,
+        p {
+            margin: 0;
+            padding: 0;
+            color: #fff;
+            font-size: 18px;
+        }
+
+        h1 {
+            font-size: 32px;
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            font-size: 24px;
+            color: #fff;
+            margin-top: 20px;
+        }
+
+        /* Go Back Button Styles */
+        .go-back-button {
+            margin-top: 20px;
+            text-align: center;
+            margin-left: -190px;
+        }
+
+        .go-back-button button {
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #fff;
+            color: #5900cb;
+            border: 2px solid #5900cb;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        .go-back-button button:hover {
+            background-color: #5900cb;
+            color: #fff;
+        }

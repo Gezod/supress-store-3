@@ -1,0 +1,362 @@
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Montserrat', sans-serif;
+            background: rgb(170, 0, 93);
+            background: linear-gradient(155deg, rgba(170, 0, 93, 1) 0%, rgba(144, 8, 136, 1) 48%, rgba(56, 15, 227, 1) 100%);
+        }
+
+        .nav-container {
+            background-color: white;
+            padding: 15px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            flex-grow: 1;
+        }
+
+        .logo img {
+            max-height: 75px;
+            margin-left: 150px;
+        }
+
+        nav {
+            text-align: right;
+            margin-right: 100px;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline-block;
+            margin-left: 70px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+        }
+
+        .image-button,
+        .image-button2 {
+            border: none;
+            padding: 0;
+            background: none;
+            cursor: pointer;
+        }
+
+        .image-button img,
+        .image-button2 img {
+            width: 35px;
+            height: auto;
+            margin-bottom: -10px;
+        }
+
+        .image-button-container {
+            margin-top: 20px;
+        }
+
+        .image-button2 img {
+            width: 80px;
+            height: auto;
+            margin-bottom: -20px;
+            margin-left: 50px;
+        }
+
+        .image-button2-container {
+            margin-left: 100px;
+        }
+
+        .circle {
+            width: 30px;
+            height: 30px;
+            background-color: #5900cb;
+            border-radius: 50%;
+            margin-left: 10px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .circle-number {
+            color: white;
+            font-size: 18px;
+        }
+
+        .rounded-button {
+            background-color: #5900cb;
+            color: white;
+            padding: 20px 80px;
+            border-radius: 100px;
+            margin-left: 40px;
+            cursor: pointer;
+            border: none;
+        }
+
+        /* Category Header Styles */
+        .category-header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .category-header h2 {
+            color: #fff;
+            font-size: 24px;
+        }
+
+        .category-section {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .category-button {
+            background-color: transparent;
+            padding: 0;
+            border: none;
+            cursor: pointer;
+            flex-direction: column;
+            align-items: center;
+            margin: 0 10px;
+            /* Adjust margin as needed */
+            transition: transform 0.3s, filter 0.3s;
+        }
+
+        .category-button img {
+            width: 200px;
+            /* Adjust the width as needed */
+            height: auto;
+            /* Maintain the aspect ratio */
+            border-radius: 10px;
+        }
+
+        .category-button:hover {
+            filter: brightness(90%);
+            /* Slightly increase brightness on hover */
+            transform: scale(1.05);
+            /* Add a subtle scale effect on hover */
+        }
+
+
+        .product-container {
+            background-color: white;
+            border: 1px solid #ddd;
+            margin: 10px;
+            text-align: center;
+            padding: 20px;
+            /* Added padding for a more spacious look */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            /* Added box shadow for a subtle elevation effect */
+            /* Added transition for a smooth effect on hover */
+            border-radius: 18px;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        #cart {
+            margin-top: 20px;
+        }
+
+        .table-responsive {
+            margin-top: 20px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        td {
+            background-color: #fff;
+        }
+
+        .form-control {
+            width: 50px;
+        }
+
+        .btn-danger {
+            background-color: #d9534f;
+            color: #fff;
+            border: 1px solid #d9534f;
+        }
+
+        .btn-danger:hover {
+            background-color: #c9302c;
+            border: 1px solid #c9302c;
+        }
+
+        .btn-success {
+            background-color: #5cb85c;
+            color: #fff;
+            border: 1px solid #4cae4c;
+        }
+
+        .btn-success:hover {
+            background-color: #4cae4c;
+            border: 1px solid #4cae4c;
+        }
+
+        .total-row {
+            font-weight: bold;
+        }
+
+
+        .product-container img {
+            max-height: 200px;
+            max-width: 100%;
+            border-radius: 8px;
+        }
+
+        .product-details {
+            margin-top: 20px;
+            white-space: nowrap;
+            /* Prevent text from wrapping */
+            overflow: hidden;
+            /* Hide any overflowed text */
+            text-overflow: ellipsis;
+            /* Display ellipsis (...) for overflowed text */
+        }
+
+        .product-row {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+
+
+        .add_to_cart {
+            background-color: #5900cb;
+            /* Yellow background color */
+            color: #ffffff;
+            /* Dark text color */
+            border: 1px solid #ffc107;
+            /* Yellow border */
+            padding: 8px 16px;
+            /* Adjust padding as needed */
+            cursor: pointer;
+            transition: background-color 0.3s;
+            margin-top: 20px;
+            /* Smooth transition effect */
+            border-radius: 18px;
+            /* Added border-radius for rounded corners */
+        }
+
+
+        .add_to_cart:hover {
+            background-color: #ffcd39;
+            /* Change background color on hover */
+        }
+
+        /* Footer Container */
+        .footer-container {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        /* Footer Menu */
+        .footer-menu {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        /* Footer Section */
+        .footer-menu section {
+            width: 23%;
+            margin-bottom: 20px;
+        }
+
+        /* Footer Links */
+        .footer-menu ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .footer-menu a {
+            text-decoration: none;
+            color: #fff;
+        }
+
+        .footer-menu a:hover {
+            text-decoration: underline;
+        }
+
+
+        .footer-copyright {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+            color: #fff;
+            /* Replace "your-desired-color" with the color you want */
+        }
+
+        .footer-copyright a {
+            color: #fff;
+            /* Optionally, change the color of links in the footer */
+        }
+
+        .footer-copyright a:hover {
+            text-decoration: underline;
+            /* Add underline on hover for links */
+        }
+
+
+
+        @media (max-width: 768px) {
+            .footer-menu section {
+                width: 48%;
+            }
+        }
+
+
+        .app-download {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        .app-download button {
+            background: none;
+            border: none;
+            padding: 0;
+            cursor: pointer;
+        }
+
+        .app-download button img {
+            width: 200px;
+            height: auto;
+            margin-left: -30px;
+        }

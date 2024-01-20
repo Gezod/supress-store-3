@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-image: url('../assets/BG.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+
+.nav-container {
+    background-color: white;
+    padding: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    flex-grow: 1;
+}
+
+.logo img {
+    max-height: 75px; /* Adjust the max-height as needed */
+    margin-left: 150px; /* Adjust the margin as needed */
+}
+
+
+
+nav {
+    text-align: right;
+    margin-right: 800px; /* Adjust the margin as needed */
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 70px; /* Adjust the margin between menu items as needed */
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black; /* Adjust the color as needed */
+    font-weight: bold;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    nav {
+        text-align: left;
+    }
+
+    nav ul {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        background-color: white;
+    }
+
+    nav ul li {
+        margin: 0;
+    }
+
+
+    label {
+        cursor: pointer;
+        font-size: 24px;
+        padding: 10px;
+    }
+}

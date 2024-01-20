@@ -1,0 +1,194 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: url('../assets/bglogin.jpg') center/cover no-repeat;
+}
+
+
+.nav-container {
+    background-color: white;
+    padding: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    flex-grow: 1;
+}
+
+.logo img {
+    max-height: 75px;
+    margin-left: 150px;
+}
+
+nav {
+    text-align: right;
+    margin-right: 100px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 30px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.login-container {
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.login-container h2 {
+    color: #333;
+}
+
+.login-container form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login-container label {
+    margin: 10px 0;
+    color: #333;
+}
+
+.login-container input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+.login-container button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.login-container button:hover {
+    background-color: #555;
+}
+
+.login-container p {
+    margin-top: 20px;
+    color: #333;
+}
+
+.login-container a {
+    color: #555;
+    text-decoration: underline;
+}
+
+.login-container a:hover {
+    color: #777;
+}
+
+
+/* Footer Container */
+.footer-container {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    width: 100%;
+    box-sizing: border-box;
+    padding-right: 50px;
+}
+
+/* Footer Menu */
+.footer-menu {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+/* Footer Section */
+.footer-menu section {
+    width: 23%;
+    margin-bottom: 20px;
+}
+
+
+.footer-menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-menu a {
+    text-decoration: none;
+    color: #fff;
+   
+}
+
+.footerlogo{
+    padding-left: 120px;
+}
+
+
+.footer-menu a:hover {
+    text-decoration: underline;
+}
+
+
+.footer-copyright {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+
+@media (max-width: 768px) {
+    .footer-menu section {
+        width: 48%;
+    }
+}
+
+
+.app-download {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.app-download button {
+    background: none;
+    border: none;
+    padding: 0; 
+    cursor: pointer;
+}
+
+
+.app-download button img {
+    width: 200px; 
+    height: auto; 
+}
